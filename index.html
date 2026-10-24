@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>TOKO SANZ DESTROYER x DR AREA - List Diamond FF</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Inter,Segoe UI,sans-serif}
+body{background:#0f172a;color:#e2e8f0}
+.header{background:#1e293b;padding:10px 3%;display:flex;align-items:center;gap:12px;border-bottom:2px solid #f97316;position:sticky;top:0;z-index:20}
+.logo-img{width:50px;height:50px;object-fit:contain;border-radius:50%;background:#000;padding:3px}
+.header-title{font-weight:900;font-size:16px;line-height:1.1;color:#fff}
+.header-title span{color:#f97316}
+.banner{background:linear-gradient(90deg,#f97316,#ef4444);color:#fff;padding:12px 3%;display:flex;align-items:center;justify-content:space-between}
+.input-section{background:#1e293b;padding:14px 3%;border-bottom:1px solid #334155}
+.label{font-size:12px;font-weight:700;margin-bottom:6px;display:block;color:#fbbf24}
+.input{width:100%;padding:10px;border:1px solid #475569;border-radius:8px;background:#0f172a;color:#fff}
+.detect-box{margin-top:8px;padding:10px;border-radius:8px;font-size:12px;display:none}
+.detect-box.success{display:block;background:#052e16;border:1px solid #22c55e;color:#dcfce7}
+.detect-box.error{display:block;background:#450a0a;border:1px solid #ef4444;color:#fecaca}
+.detect-box.loading{display:block;background:#422006;border:1px solid #f59e0b;color:#fde68a}
+.container{padding:12px 2%;max-width:1100px;margin:0 auto}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.card{background:#e2e8f0;border-radius:10px;padding:10px 12px;cursor:pointer;border:1.5px solid #cbd5e1;position:relative;color:#1e293b}
+.card.sel{border-color:#f97316;background:#fff7ed;box-shadow:0 0 0 2px #f97316}
+.card b{font-size:11px;display:block}
+.card span{font-size:11px;color:#475569;font-weight:600}
+.card .diamond-icon{position:absolute;top:8px;right:8px;font-size:14px}
+.membership-title{margin:18px 0 10px;font-size:14px;font-weight:900;color:#fbbf24}
+.btn-beli{width:100%;background:linear-gradient(90deg,#f97316,#ef4444);color:#fff;padding:14px;border:none;border-radius:12px;font-weight:900;font-size:14px;margin:16px 0;cursor:pointer;position:sticky;bottom:10px;z-index:10}
+.checkout-page{display:none;background:#0f172a;min-height:100vh;padding:20px 3%}
+.checkout-page.active{display:block}
+.checkout-box{max-width:600px;margin:0 auto;background:#1e293b;border-radius:16px;padding:20px;border:1px solid #334155}
+.success-box{max-width:480px;margin:30px auto;background:#1e293b;border-radius:20px;padding:28px;text-align:center;border:1px solid #22c55e}
+.check-icon{width:70px;height:70px;background:#22c55e;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:36px;color:#fff;margin:0 auto 14px}
+</style>
+</head>
+<body>
+<div class="header">
+<img src="logo-dr.png" class="logo-img">
+<div class="header-title">TOKO <span>SANZ</span><br>DESTROYER x DR AREA</div>
+<div style="margin-left:auto">🇮🇩</div>
+</div>
+<div id="mainPage">
+<div class="banner">
+<div><h2>🔥 Top Up Free Fire - DISKON 50%</h2><p style="font-size:11px">ID: 2622796594 • sán nocare • Lv70 Master</p></div>
+<div style="font-size:28px">💎</div>
+</div>
+<div class="input-section">
+<label class="label">User ID Free Fire *</label>
+<input id="uid" class="input" placeholder="Masukkan ID: 2622796594" oninput="detectFF()">
+<div id="detectBox" class="detect-box"></div>
+</div>
+<div class="container">
+<div class="grid">
+<div class="card" onclick="pilih(this,'Free Fire 230 Diamond','Rp 20.307')"><div class="diamond-icon">💎</div><b>Free Fire 230 Diamond</b><span>Rp 20.307</span></div>
+<div class="card" onclick="pilih(this,'Free Fire 280 Diamond','Rp 29.788')"><div class="diamond-icon">💎</div><b>Free Fire 280 Diamond</b><span>Rp 29.788</span></div>
+<div class="card" onclick="pilih(this,'Free Fire 300 Diamond','Rp 22.679')"><div class="diamond-icon">💎</div><b>Free Fire 300 Diamond</b><span>Rp 22.679</span></div>
+<div class="card" onclick="pilih(this,'Free Fire 350 Diamond','Rp 25.982')"><div class="diamond-icon">💎</div><b>Free Fire 350 Diamond</b><span>Rp 25.982</span></div>
+<div class="card" onclick="pilih(this,'Free Fire 355 Diamond','Rp 26.801')"><div class="diamond-icon">💎</div><b>Free Fire 355 Diamond</b><span>Rp 26.801</span></div>
+<div class="card" onclick="pilih(this,'Free Fire 360 Diamond','Rp 26.927')"><div class="diamond-icon">💎</div><b>Free Fire 360 Diamond</b><span>Rp 26.927</span></div>
+<div class="card" onclick="pilih(this,'Free Fire 375 Diamond','Rp 27.871')"><div class="diamond-icon">💎</div><b>Free Fire 375 Diamond</b><span>Rp 27.871</span></div>
+<div class="card" onclick="pilih(this,'Free Fire 400 Diamond','Rp 29.759')"><div class="diamond-icon">💎</div><b>Free Fire 400 Diamond</b><span>Rp 29.759</span></div>
+<div class="card" onclick="pilih(this,'Free Fire 455 Diamond','Rp 35.259')"><div class="diamond-icon">💎</div><b>Free Fire 455 Diamond</b><span>Rp 35.259</span></div>
+<div class="card" onclick="pilih(this,'Free Fire 475 Diamond','Rp 36.327')"><div class="diamond-icon">💎</div><b>Free Fire 475 Diamond</b><span>Rp 36.327</span></div>
+<div class="card" onclick="pilih(this,'Free Fire 495 Diamond','Rp 37.399')"><div class="diamond-icon">💎</div><b>Free Fire 495 Diamond</b><span>Rp 37.399</span></div>
+<div class="card" onclick="pilih(this,'Free Fire 510 Diamond','Rp 37.785')"><div class="diamond-icon">💎</div><b>Free Fire 510 Diamond</b><span>Rp 37.785</span></div>
+<div class="card" onclick="pilih(this,'Free Fire 565 Diamond','Rp 42.735')"><div class="diamond-icon">💎</div><b>Free Fire 565 Diamond</b><span>Rp 42.735</span></div>
+<div class="card" onclick="pilih(this,'Free Fire 600 Diamond','Rp 46.473')"><div class="diamond-icon">💎</div><b>Free Fire 600 Diamond</b><span>Rp 46.473</span></div>
+<div class="card" onclick="pilih(this,'Free Fire 645 Diamond','Rp 49.143')"><div class="diamond-icon">💎</div><b>Free Fire 645 Diamond</b><span>Rp 49.143</span></div>
+<div class="card sel" onclick="pilih(this,'Free Fire 700 Diamond','Rp 51.949')"><div class="diamond-icon">💎</div><b>Free Fire 700 Diamond</b><span>Rp 51.949 • BEST</span></div>
+<div class="card" onclick="pilih(this,'Free Fire 800 Diamond','Rp 58.083')"><div class="diamond-icon">💎</div><b>Free Fire 800 Diamond</b><span>Rp 58.083</span></div>
+<div class="card" onclick="pilih(this,'Free Fire 840 Diamond','Rp 63.012')"><div class="diamond-icon">💎</div><b>Free Fire 840 Diamond</b><span>Rp 63.012</span></div>
+<div class="card" onclick="pilih(this,'Free Fire 910 Diamond','Rp 68.252')"><div class="diamond-icon">💎</div><b>Free Fire 910 Diamond</b><span>Rp 68.252</span></div>
+<div class="card" onclick="pilih(this,'Free Fire 1000 Diamond','Rp 72.717')"><div class="diamond-icon">💎</div><b>Free Fire 1000 Diamond</b><span>Rp 72.717</span></div>
+<div class="card" onclick="pilih(this,'Free Fire 1215 Diamond','Rp 90.780')"><div class="diamond-icon">💎</div><b>Free Fire 1215 Diamond</b><span>Rp 90.780</span></div>
+<div class="card" onclick="pilih(this,'Free Fire 1300 Diamond','Rp 94.907')"><div class="diamond-icon">💎</div><b>Free Fire 1300 Diamond</b><span>Rp 94.907</span></div>
+<div class="card" onclick="pilih(this,'Free Fire 1440 Diamond','Rp 106.800')"><div class="diamond-icon">💎</div><b>Free Fire 1440 Diamond</b><span>Rp 106.800</span></div>
+<div class="card" onclick="pilih(this,'Free Fire 1510 Diamond','Rp 109.066')"><div class="diamond-icon">💎</div><b>Free Fire 1510 Diamond</b><span>Rp 109.066</span></div>
+<div class="card" onclick="pilih(this,'Free Fire 1795 Diamond','Rp 133.500')"><div class="diamond-icon">💎</div><b>Free Fire 1795 Diamond</b><span>Rp 133.500</span></div>
+<div class="card" onclick="pilih(this,'Free Fire 1800 Diamond','Rp 133.515')"><div class="diamond-icon">💎</div><b>Free Fire 1800 Diamond</b><span>Rp 133.515</span></div>
+<div class="card" onclick="pilih(this,'Free Fire 1975 Diamond','Rp 147.384')"><div class="diamond-icon">💎</div><b>Free Fire 1975 Diamond</b><span>Rp 147.384</span></div>
+<div class="card" onclick="pilih(this,'Free Fire 2000 Diamond','Rp 149.535')"><div class="diamond-icon">💎</div><b>Free Fire 2000 Diamond</b><span>Rp 149.535</span></div>
+<div class="card" onclick="pilih(this,'Free Fire 2100 Diamond','Rp 156.462')"><div class="diamond-icon">💎</div><b>Free Fire 2100 Diamond</b><span>Rp 156.462</span></div>
+<div class="card" onclick="pilih(this,'Free Fire 2140 Diamond','Rp 160.200')"><div class="diamond-icon">💎</div><b>Free Fire 2140 Diamond</b><span>Rp 160.200</span></div>
+<div class="card" onclick="pilih(this,'Free Fire 2200 Diamond','Rp 162.351')"><div class="diamond-icon">💎</div><b>Free Fire 2200 Diamond</b><span>Rp 162.351</span></div>
+<div class="card" onclick="pilih(this,'Free Fire 2350 Diamond','Rp 174.084')"><div class="diamond-icon">💎</div><b>Free Fire 2350 Diamond</b><span>Rp 174.084</span></div>
+<div class="card" onclick="pilih(this,'Free Fire 2975 Diamond','Rp 191.172')"><div class="diamond-icon">💎</div><b>Free Fire 2975 Diamond</b><span>Rp 191.172</span></div>
+<div class="card" onclick="pilih(this,'Free Fire 3000 Diamond','Rp 222.344')"><div class="diamond-icon">💎</div><b>Free Fire 3000 Diamond</b><span>Rp 222.344</span></div>
+<div class="card" onclick="pilih(this,'Free Fire 3620 Diamond','Rp 267.000')"><div class="diamond-icon">💎</div><b>Free Fire 3620 Diamond</b><span>Rp 267.000</span></div>
+<div class="card" onclick="pilih(this,'Free Fire 3800 Diamond','Rp 279.816')"><div class="diamond-icon">💎</div><b>Free Fire 3800 Diamond</b><span>Rp 279.816</span></div>
+<div class="card" onclick="pilih(this,'Free Fire 4000 Diamond','Rp 294.249')"><div class="diamond-icon">💎</div><b>Free Fire 4000 Diamond</b><span>Rp 294.249</span></div>
+<div class="card" onclick="pilih(this,'Free Fire 5000 Diamond','Rp 404.000')"><div class="diamond-icon">💎</div><b>Free Fire 5000 Diamond</b><span>Rp 404.000</span></div>
+<div class="card" onclick="pilih(this,'Free Fire 9800 Diamond','Rp 747.400')"><div class="diamond-icon">💎</div><b>Free Fire 9800 Diamond</b><span>Rp 747.400</span></div>
+<div class="card" onclick="pilih(this,'Free Fire 14590 Diamond','Rp 1.111.000')"><div class="diamond-icon">💎</div><b>Free Fire 14590 Diamond</b><span>Rp 1.111.000</span></div>
+<div class="card" onclick="pilih(this,'Free Fire 36500 Diamond','Rp 2.222.000')"><div class="diamond-icon">💎</div><b>Free Fire 36500 Diamond</b><span>Rp 2.222.000</span></div>
+<div class="card" onclick="pilih(this,'Free Fire 73100 Diamond','Rp 4.545.000')"><div class="diamond-icon">💎</div><b>Free Fire 73100 Diamond</b><span>Rp 4.545.000 • SULTAN</span></div>
+</div>
+<div class="membership-title">🔥 Membership</div>
+<div class="grid">
+<div class="card" onclick="pilih(this,'Free Fire Membership Mingguan','Rp 15.751')" style="background:#fef3c7"><div class="diamond-icon">📅</div><b>Free Fire Membership Mingguan</b><span>Rp 15.751</span></div>
+<div class="card" onclick="pilih(this,'Free Fire BP Card','Rp 23.619')" style="background:#fce7f3"><div class="diamond-icon">🔥</div><b>Free Fire BP Card</b><span>Rp 23.619</span></div>
+<div class="card" onclick="pilih(this,'Member Bulanan','Rp 50.500')" style="background:#dbeafe"><div class="diamond-icon">🗓️</div><b>Member Bulanan</b><span>Rp 50.500</span></div>
+<div class="card" onclick="pilih(this,'Level Up Pass','Rp 20.000')" style="background:#dcfce7"><div class="diamond-icon">⬆️</div><b>Level Up Pass</b><span>Rp 20.000</span></div>
+</div>
+<button class="btn-beli" onclick="goCheckout()">Beli Sekarang - <span id="totalBtn">Rp 51.949</span> →</button>
+</div>
+</div>
+<div id="checkoutPage" class="checkout-page">
+<div class="checkout-box">
+<button onclick="backToMain()" style="border:none;background:#334155;color:#fff;padding:6px 12px;border-radius:8px">← Kembali</button>
+<h2 style="margin:14px 0 6px;color:#f97316">Checkout - Pembayaran QRIS</h2>
+<div style="background:#0f172a;border:1px solid #334155;border-radius:12px;padding:14px;margin-top:14px">
+<div style="display:flex;justify-content:space-between;margin:8px 0;font-size:13px"><span>User ID:</span><b id="cUid">-</b></div>
+<div style="display:flex;justify-content:space-between;margin:8px 0;font-size:13px"><span>Nama:</span><b id="cNama" style="color:#22c55e">sán nocare</b></div>
+<div style="display:flex;justify-content:space-between;margin:8px 0;font-size:13px"><span>Level:</span><b>70</b></div>
+<div style="display:flex;justify-content:space-between;margin:8px 0;font-size:13px"><span>Rank:</span><b style="color:#ef4444">Master</b></div>
+<div style="display:flex;justify-content:space-between;margin:8px 0;font-size:13px"><span>Paket:</span><b id="cPaket">-</b></div>
+<div style="display:flex;justify-content:space-between;font-size:15px;font-weight:900;margin-top:10px;border-top:1px dashed #475569;padding-top:10px"><span>Total:</span><span id="cTotal" style="color:#f97316">Rp 51.949</span></div>
+</div>
+<div style="background:#1a1a1a;border:2px dashed #f97316;border-radius:14px;padding:16px;text-align:center;margin-top:14px">
+<h4 style="color:#f97316">Scan QRIS SANZ ID1026597875263</h4>
+<img src="qris.png" style="max-width:260px;margin:10px auto;display:block;border-radius:12px" onerror="this.style.display='none'">
+</div>
+<button style="width:100%;background:#22c55e;color:#fff;padding:14px;border:none;border-radius:12px;font-weight:800;margin-top:14px" onclick="konfirmasiBayar()">✅ Saya Sudah Bayar</button>
+</div>
+</div>
+<div id="successPage" class="checkout-page">
+<div class="success-box">
+<div class="check-icon">✓</div>
+<h2 style="color:#22c55e;font-size:24px;font-weight:900">Pembayaran Sukses</h2>
+<div style="background:#0f172a;border:1px solid #334155;border-radius:12px;padding:14px;margin:16px 0;text-align:left;font-size:13px">
+<div style="display:flex;justify-content:space-between;margin:8px 0"><span>User ID:</span><b id="sUid">2622796594</b></div>
+<div style="display:flex;justify-content:space-between;margin:8px 0"><span>Nama:</span><b id="sNama" style="color:#22c55e">sán nocare</b></div>
+<div style="display:flex;justify-content:space-between;margin:8px 0"><span>Level:</span><b>70</b></div>
+<div style="display:flex;justify-content:space-between;margin:8px 0"><span>Rank:</span><b style="color:#ef4444">Master</b></div>
+<div style="display:flex;justify-content:space-between;margin:8px 0"><span>Paket:</span><b id="sPaket">-</b></div>
+<div style="display:flex;justify-content:space-between;margin:8px 0;font-weight:900"><span>Total:</span><span id="sTotal" style="color:#f97316">-</span></div>
+<div style="display:flex;justify-content:space-between;margin:8px 0"><span>Status:</span><b style="color:#22c55e;background:#052e16;padding:2px 8px;border-radius:10px">✅ SUKSES</b></div>
+</div>
+<button style="width:100%;background:#f97316;color:#fff;padding:12px;border:none;border-radius:10px;font-weight:800" onclick="backToMain()">🔙 Kembali ke Home</button>
+</div>
+</div>
+<script>
+let paket='Free Fire 700 Diamond',harga='Rp 51.949',namaAkun='',uidGlobal='2622796594';
+function pilih(el,n,h){
+ document.querySelectorAll('.card').forEach(c=>c.classList.remove('sel'));
+ el.classList.add('sel');paket=n;harga=h;
+ document.getElementById('totalBtn').innerText=h;
+}
+function detectFF(){
+ const uid=document.getElementById('uid').value.trim();
+ const box=document.getElementById('detectBox');
+ uidGlobal=uid;
+ if(uid.length<3){box.style.display='none';return;}
+ box.className='detect-box loading';box.style.display='block';
+ box.innerHTML='⏳ Mendeteksi ID '+uid+'...';
+ setTimeout(()=>{
+   if(uid==='2622796594'){
+     namaAkun='sán nocare';
+     box.className='detect-box success';
+     box.innerHTML='✅ <b>Akun Ditemukan!</b><br>👤 <b>sán nocare</b><br>⭐ Level <b>70</b> • 🏆 Rank <b style="color:#ef4444">Master</b>';
+   } else {
+     namaAkun='';box.className='detect-box error';
+     box.innerHTML='❌ ID tidak ditemukan. Coba 2622796594';
+   }
+ },800);
+}
+function goCheckout(){
+ const uid=document.getElementById('uid').value.trim();
+ if(uid!=='2622796594'){alert('Harus ID 2622796594!');return;}
+ if(!namaAkun){alert('Tunggu deteksi!');return;}
+ document.getElementById('mainPage').style.display='none';
+ document.getElementById('checkoutPage').classList.add('active');
+ document.getElementById('cUid').innerText=uid;
+ document.getElementById('cNama').innerText=namaAkun;
+ document.getElementById('cPaket').innerText=paket;
+ document.getElementById('cTotal').innerText=harga;
+}
+function backToMain(){
+ document.getElementById('checkoutPage').classList.remove('active');
+ document.getElementById('successPage').classList.remove('active');
+ document.getElementById('mainPage').style.display='block';
+}
+function konfirmasiBayar(){
+ document.getElementById('checkoutPage').classList.remove('active');
+ document.getElementById('successPage').classList.add('active');
+ document.getElementById('sUid').innerText=uidGlobal;
+ document.getElementById('sNama').innerText=namaAkun;
+ document.getElementById('sPaket').innerText=paket;
+ document.getElementById('sTotal').innerText=harga;
+}
+</script>
+</body>
+</html>
